@@ -1,0 +1,468 @@
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*font*/
+@font-face{
+	src:url("font/texgyreadventor-bold.otf");
+	font-family: TeX;
+}
+
+@font-face{
+	src:url("font/SVN-Museo Sans Regular.ttf");
+	font-family: svn-museo;
+}
+
+@font-face{
+	src:url("font/SVN-Abril Fatface.ttf");
+	font-family: svn-abril;
+}
+
+@font-face{
+	src:url("font/SVN-Alek Bold.otf");
+	font-family: svn-alek;
+}
+
+/*header*/
+.container{
+	width: 1260px;
+	height: 3080px;
+	background-image: linear-gradient(to right, #628299 , #97bbd3);
+	margin: 0 auto;
+}
+
+.header{
+	width: 1260px;
+	height: 100px;
+/*	padding: 10px;*/
+}
+
+.header img{
+	width: 200px;
+	margin-left: 30px;
+	float: left;
+}
+
+.header .menu{
+	float: right;
+	margin: 30px;
+}
+.header .menu ul{
+	list-style: none;
+}
+
+.header .menu ul li{
+	float: left;
+	margin-right: 50px;
+}
+
+.header .menu ul li a{
+	font-family: TeX;
+	color: whitesmoke;
+	text-decoration: none;
+	display: block;
+	font-size: 15pt;
+}
+
+.header .menu ul li:hover{
+	
+}
+
+.header .menu ul li:hover a{
+	color: #628299;
+}
+
+.header .menu .dropdown-menu{
+	float: left;
+  	overflow: hidden;
+}
+
+.header .menu .dropdown-menu .dropbtn{
+  	border: none;
+  	outline: none;
+  	background-color: inherit;
+}
+
+.dropdown-menu:hover .dropbtn {
+}
+
+.header .menu .dropdown-menu .dropbtn img{
+	width: 30px;
+	margin: 8px;
+}
+
+.header .menu .dropdown-menu .dropdown-content{
+	display: none;
+  	position: absolute;
+  	background-color: #f1f1f1;
+  	min-width: 100px;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+}
+
+.header .menu .dropdown-menu .dropdown-content a{
+	float: none;
+  	color: #628299;
+  	padding: 10px 14px;
+  	text-decoration: none;
+  	display: block;
+}
+
+.header .menu .dropdown-menu .dropdown-content a:hover {background-color: #ddd;}
+
+.header .menu .dropdown-menu:hover .dropdown-content {display: block;}
+
+/*content*/
+.content{
+	width: 1260px;
+	margin-top: 110px;
+}
+
+.content .first {
+	width: 1260px;
+	height: 1750px;
+}
+.content .infor{
+	width: 126px;
+	height: 1750px;
+	float: left;
+}
+
+.content .infor p{
+	font-family: svn-museo;
+	color: white;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	margin-left: 30px;
+}
+
+.content .infor hr{
+	transform: rotate(-90deg);
+	width: 50px;
+	margin-left: 15px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.content .infor img{
+	width: 30px;
+	margin-left: 25px;
+	margin-top: 30px;
+}
+.content .main-content{
+	width: 1100px;
+	height: 1650px;
+	float: right;
+	
+}
+.content .coffee{
+	width: 1100px;
+	height: 500px;
+/*	float: right;*/
+}
+
+.content .coffee .coffee-tittle{
+	font-family: svn-abril;
+	color: white;
+	font-size: 40pt;
+	
+}
+
+.content .coffee .coffee-text {
+	font-family: svn-museo;
+	color: white;
+	width: 450px;
+	margin-top: 30px;
+}
+
+.content .coffee .coffee-img p{
+	font-family: svn-abril;
+	font-size: 150pt;
+	color: white;
+	float: right;
+	margin-top: -400px;
+	margin-right: 350px;
+	
+}
+.content .coffee .coffee-img img{
+	width: 550px;;
+	float: right;
+	margin-top: -350px;
+	margin-right: 20px;
+}
+
+.content .breakfast{
+	width: 1100px;
+	height: 650px;
+/*	float: left;*/
+}
+.content .breakfast .breakfast-img p{
+	font-family: svn-abril;
+	font-size: 150pt;
+	color: white;
+	float: left;
+	
+}
+.content .breakfast .breakfast-img img{
+	width: 550px;
+	float: left;
+	margin-left: -180px;
+	margin-top: 50px;
+}
+
+.content .breakfast .breakfast-tittle{
+	font-family: svn-abril;
+	color: white;
+	font-size: 40pt;
+	float: right;
+	margin-top: 30px;
+	margin-right: 100px;
+}
+
+.content .breakfast .breakfast-text {
+	font-family: svn-museo;
+	color: white;
+	width: 450px;
+	float: right;
+	margin-right: 80px;
+	margin-top: -450px;
+}
+
+.content .eatClean{
+	width: 1100px;
+	height: 500px;
+}
+
+.content .eatClean .eatClean-tittle{
+	font-family: svn-abril;
+	color: white;
+	font-size: 40pt;
+}
+
+.content .eatClean .eatClean-text{
+	font-family: svn-museo;
+	color: white;
+	width: 450px;
+	margin-top: 30px;
+}
+
+.content .eatClean .eatClean-img p{
+	font-family: svn-abril;
+	font-size: 150pt;
+	color: white;
+	float: right;
+	margin-top: -350px;
+	margin-right: 350px;
+}
+
+.content .eatClean .eatClean-img img{
+	width: 550px;
+	float: right;
+	margin-top: -320px;
+	margin-right: 20px;
+}
+
+.content .discovery{
+	width: 1260px;
+	height: 750px;
+}
+
+.content .discovery .disc-title {
+	font-family: svn-alek;
+	color: white;
+	font-size: 70pt;
+	margin-left: 500px;
+	margin-top:-100px;
+}
+
+.content .discovery .disc-box-out{
+	width: 1260px;
+/*	height: 700px;*/
+}
+
+.content .discovery .disc-box-out .disc-box{
+	width: 420px;
+	height: 300px;
+	float: left;
+	background-color: white;
+}
+
+.content .discovery .disc-box-out .disc-box04{
+	width: 420px;
+	height: 300px;
+	float: left;
+	background-color: white;
+}
+.content .discovery .disc-box-out .disc-box04 img{
+	width: 280px;
+	margin: 100px 60px;
+}
+
+.content .discovery .disc-box-out .disc-box03{
+	width: 420px;
+	height: 300px;
+	float: left;
+}
+.content .discovery .disc-box-out .disc-box03 img{
+	width: 420px;
+	height: 300px;
+}
+
+.content .discovery .disc-box-out .disc-box01{
+	width: 420px;
+	height: 300px;
+	float: left;
+	background-color: #3e5f72;
+}
+
+.content .discovery .disc-box-out .disc-box01 .box01-text{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.content .discovery .disc-box-out .disc-box01 .box01-text p{
+	font-family: svn-abril;
+	font-size: 25pt;
+	color: white;
+	margin-bottom: 10pt;
+}
+
+.content .discovery .disc-box-out .disc-box01 .box01-text .box01-btn{
+	background-color: #628299; 
+  	border: none;
+  	color: white;
+  	padding: 12px 25px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 40px 0px;
+  	cursor: pointer;
+	font-family: svn-museo;
+}
+
+.content .discovery .disc-box-out .disc-box .box-text{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.content .discovery .disc-box-out .disc-box .box-text p{
+	font-family: svn-abril;
+	font-size: 25pt;
+	color: #628299;
+	margin-bottom: 10pt;
+}
+
+.content .discovery .disc-box-out .disc-box .box-text .box-btn{
+	background-color: #3e5f72; 
+  	border: none;
+  	color: white;
+  	padding: 12px 25px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 40px 0px;
+  	cursor: pointer;
+	font-family: svn-museo;
+}
+
+.content .quote{
+	text-align: center;
+	width: 1260px;
+	height: 600px;
+}
+
+.content .quote p{
+	font-family:svn-alek; 
+	color: white; 
+	font-size: 200pt;
+	margin: -200px 0px;
+}
+
+/*footer*/
+.footer{
+	width:1260px;
+	height: 450px;
+	background-color:#e8e8eb;
+}
+
+.footer .ft-img{
+	opacity: 0.3;
+}
+
+.footer .ft-img img{
+	width:1260px;
+}
+
+.footer .footer-box{
+	width: 1260;
+	height: 450px;
+	position: absolute;
+}
+
+.footer .footer-box .ft-box-left{
+	width: 630px;
+	height: 350px;
+	float: left;
+}
+
+
+.footer .footer-box .ft-box-left p{
+	font-family: TeX;
+	color: #3e5f72;
+	margin: 150px 0 20px 150px;
+}
+
+.footer .footer-box .ft-box-right{
+	width: 630px;
+	height: 350px;
+	float: left;
+}
+
+.footer .footer-box .ft-box-left .follow{
+	width: 250px;
+	margin: 0 130px;
+}
+.footer .footer-box .ft-box-left img{
+	width: 30px;
+	margin: 10px 20px 0;
+}
+
+.footer .footer-box .ft-box-right .right-box{
+	width: 210px;
+	height: 350px;
+	float: left;
+}
+
+.footer .footer-box .ft-box-right .right-box .right-box-title p{
+	font-family: TeX;
+	color: #3e5f72;
+	margin-top: 150px;
+	margin-bottom: 20px;
+}
+
+.footer .footer-box .ft-box-right .right-box .right-box-text p{
+	font-family: svn-museo;
+	
+}
+
+.footer .hr{
+	width: 1050px;
+	border: 1px solid #3e5f72;
+	margin: -100px auto;
+}
+
+.footer .box-end{
+	width: 1050px;
+	height: 90px;
+	margin: 100px auto;
+}
+
+.footer .box-end a{
+	text-decoration: none;
+	font-family: TeX;
+	color: #3e5f72;
+	margin: 100px;
+}
+
